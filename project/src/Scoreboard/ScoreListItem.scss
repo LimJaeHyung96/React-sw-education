@@ -1,0 +1,16 @@
+.ScoreListItem {
+  padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+  padding-left: 0.3rem;
+  display: flex;
+  align-items: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  &:nth-child(even) {
+    background: #dddddd;
+  }
+  .icon {
+    margin-right: 0.2rem;
+    padding-top: 0.2rem;
+  }
+}

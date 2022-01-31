@@ -1,0 +1,74 @@
+.Score {
+  .ScoreTable {
+    width: 100%;
+    .home {
+      color: white;
+      width: 40%;
+      font-size: 150%;
+    }
+    .space {
+      width: 20%;
+    }
+    .away {
+      color: white;
+      width: 40%;
+      font-size: 150%;
+    }
+    .HomeScore {
+      text-align: center;
+      width: 40%;
+      color: red;
+      font-size: 750%;
+    }
+    .ScoreSpace {
+      text-align: center;
+      width: 20%;
+      color: white;
+      font-size: 600%;
+    }
+    .AwayScore {
+      text-align: center;
+      width: 40%;
+      color: red;
+      font-size: 750%;
+    }
+  }
+  .ScoreButton {
+    width: 100%;
+    .h_1 {
+      text-align: center;
+      width: 10%;
+    }
+    .h1 {
+      text-align: center;
+      width: 10%;
+    }
+    .h2 {
+      text-align: center;
+      width: 10%;
+    }
+    .h3 {
+      text-align: center;
+      width: 10%;
+    }
+    .ButtonsSpace {
+      width: 20%;
+    }
+    .a_1 {
+      text-align: center;
+      width: 10%;
+    }
+    .a1 {
+      text-align: center;
+      width: 10%;
+    }
+    .a2 {
+      text-align: center;
+      width: 10%;
+    }
+    .a3 {
+      text-align: center;
+      width: 10%;
+    }
+  }
+}

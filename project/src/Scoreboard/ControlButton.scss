@@ -1,0 +1,17 @@
+.ControlButton {
+  text-align: center;
+  .StartStop {
+    .Button {
+      size: 120%;
+    }
+  }
+  .ShotclockSetting {
+    width: 100%;
+    .Setting24 {
+      text-align: right;
+    }
+    .Setting14 {
+      text-align: left;
+    }
+  }
+}

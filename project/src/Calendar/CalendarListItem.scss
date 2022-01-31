@@ -1,0 +1,20 @@
+.CalendarListItem {
+  padding: 1rem;
+  align-items: center;
+  .First {
+    display: flex;
+    flex: 1;
+    .text {
+      margin-left: 0.5rem;
+      flex: 1;
+    }
+    .remove {
+      &:hover {
+        color: #f8577a;
+      }
+    }
+  }
+  .date {
+    float: right;
+  }
+}

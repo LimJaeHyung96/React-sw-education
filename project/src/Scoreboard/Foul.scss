@@ -1,0 +1,39 @@
+.Foul {
+  text-align: center;
+  .FoulTable {
+    width: 100%;
+    .HomeBonus {
+      color: white;
+    }
+    .SpaceBonus {
+      width: 20%;
+    }
+    .AwayBonus {
+      color: white;
+    }
+    .FoulCount {
+      .HomeFoul {
+        font-size: 120%;
+        color: #f7fd04;
+      }
+      .SpaceFoul {
+        width: 20%;
+      }
+      .AwayFoul {
+        font-size: 120%;
+        color: #f7fd04;
+      }
+    }
+    .ButtonTable {
+      .HomeButton {
+        width: 40%;
+      }
+      .SpaceButton {
+        width: 20%;
+      }
+      .AwayButton {
+        width: 40%;
+      }
+    }
+  }
+}

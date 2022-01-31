@@ -1,0 +1,76 @@
+.Game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  .GameHeader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    background: #95e1d3;
+    min-width: 330px;
+    font-size: 4vh;
+  }
+  .CardList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 70vh;
+    height: 70vh;
+    min-width: 330px;
+    min-height: 330px;
+    background: #eaffd0;
+    pointer-events: none;
+    &.started {
+      pointer-events: auto;
+    }
+  }
+  .CardsOfColumn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 25%;
+  }
+  .Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f38181;
+    font-size: 0;
+    width: 18%;
+    height: 90%;
+    margin: 5px;
+
+    &:hover {
+      background: #b83b5e;
+      cursor: pointer;
+    }
+    &.clicked {
+      background: #fce38a;
+      font-size: 4vh;
+      color: black;
+    }
+    &.opened {
+      background: #364f6b;
+      pointer-events: none;
+      font-size: 4vh;
+    }
+  }
+  .GameFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70vh;
+    background: #95e1d3;
+    min-width: 330px;
+    font-size: 4vh;
+    &:hover {
+      background: #08d9d6;
+      cursor: pointer;
+    }
+  }
+}

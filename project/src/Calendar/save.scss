@@ -1,0 +1,36 @@
+.SaveForm {
+  background: #fb9300;
+  display: flex;
+  .inputDiv {
+    width: 70%;
+    .input {
+      width: 90%;
+      outline: none;
+      border: none;
+      font-size: 1.125rem;
+      line-height: 2;
+      color: black;
+    }
+  }
+  .Save {
+    float: right;
+    align-items: center;
+    display: flex;
+    .DatePicker {
+      width: 70px;
+    }
+    .SaveButton {
+      outline: none;
+      border: none;
+      background: #ff96ad;
+      color: white;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      font-size: 1.5rem;
+      cursor: pointer;
+      &:hover {
+        background: #f8577a;
+      }
+    }
+  }
+}
